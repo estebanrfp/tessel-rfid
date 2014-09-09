@@ -12,6 +12,10 @@ rfid.on('ready', function (version) {
     
         // console.log('UID:', card.uid.toString('hex'));
       	led1.toggle();
+      	// if (card.uid.toSTring('hex')=="xxxx") 
+      	// 	{
+      	// 		alert("test");
+      	// 	};
   });
 });
 
