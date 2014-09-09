@@ -10,7 +10,7 @@ rfid.on('ready', function (version) {
 
   rfid.on('data', function(card) {
     
-        console.log('UID:', card.uid.toString('hex'));
+        // console.log('UID:', card.uid.toString('hex'));
       	led1.toggle();
   });
 });
